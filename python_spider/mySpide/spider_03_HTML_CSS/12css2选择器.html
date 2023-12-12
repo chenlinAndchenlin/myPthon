@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    /*给所有div标签设置此样式*/
+    /*div{*/
+    /*只给class属性名为lucky1的标签设置此样式*/
+    div{
+        border-radius:50px;
+        background-color: aqua;
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+    }
+    /*只给lucky1设置红色背景色 多次使用*/
+    .lucky1{
+        background-color: red;
+    }
+  /* id选择器 只能使用一次 */
+    #id_lucky{
+        background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+<div id="id_lucky"></div>
+<div class="lucky1"></div>
+<div class="lucky1"></div>
+</body>
+</html>
